@@ -1,6 +1,5 @@
 package br.com.bootcamp.exer1;
 
-
 import br.com.bootcamp.exer1.Telefone.Telefone;
 import br.com.bootcamp.exer1.Telefone.TipoTelefone;
 import br.com.bootcamp.exer1.endereco.Endereco;
