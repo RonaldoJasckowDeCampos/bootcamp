@@ -1,4 +1,4 @@
-package br.com.bootcamp.Telefone;
+package br.com.bootcamp.exer1.Telefone;
 
 public enum TipoTelefone {
     COMERCIAL("Numero Comercial"),

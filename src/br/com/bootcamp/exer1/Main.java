@@ -1,17 +1,15 @@
-package br.com.bootcamp;
+package br.com.bootcamp.exer1;
 
 
-import br.com.bootcamp.Telefone.Telefone;
-import br.com.bootcamp.Telefone.TipoTelefone;
-import br.com.bootcamp.endereco.Endereco;
-import br.com.bootcamp.pessoa.Pessoa;
+import br.com.bootcamp.exer1.Telefone.Telefone;
+import br.com.bootcamp.exer1.Telefone.TipoTelefone;
+import br.com.bootcamp.exer1.endereco.Endereco;
+import br.com.bootcamp.exer1.pessoa.Pessoa;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.spi.LocaleServiceProvider;
 
 public class Main {
     public static void main(String[] args) {
