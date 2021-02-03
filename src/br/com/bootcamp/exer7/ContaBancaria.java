@@ -2,7 +2,7 @@ package br.com.bootcamp.exer7;
 
 import java.math.BigDecimal;
 
-public abstract class ContaBancaria {
+public abstract class ContaBancaria implements  Imprimivel{
 
     private Integer numeroConta;
     private BigDecimal  saldo;

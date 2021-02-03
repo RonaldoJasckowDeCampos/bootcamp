@@ -39,5 +39,8 @@ public class ContaPoupanca extends ContaBancaria {
 //        BigDecimal saldoFinal = sacar.negate(saldo);
 //
 //    }
+    public void mostrarDados(){
+        System.out.println("numero conta: "+getNumeroConta()+" saldo: " +getSaldo()+" taxa "+taxaDeOpecacao);
+    }
 
 }
