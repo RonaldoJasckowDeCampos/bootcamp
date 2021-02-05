@@ -27,6 +27,6 @@ public class ContaCorrente extends ContaBancaria {
 //            System.out.println("depósito realizado com sucesso");
     }
     public void mostrarDados(){
-        System.out.println("numero conta: "+getNumeroConta());
+        System.out.println("numero conta Conta Corrente: "+getNumeroConta());
     }
 }

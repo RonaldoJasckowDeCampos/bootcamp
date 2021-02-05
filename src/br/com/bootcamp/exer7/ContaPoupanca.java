@@ -40,7 +40,7 @@ public class ContaPoupanca extends ContaBancaria {
 //
 //    }
     public void mostrarDados(){
-        System.out.println("numero conta: "+getNumeroConta()+" saldo: " +getSaldo()+" taxa "+taxaDeOpecacao);
+        System.out.println("numero conta Pupança: "+getNumeroConta()+" saldo: " +getSaldo()+" taxa "+taxaDeOpecacao);
     }
 
 }

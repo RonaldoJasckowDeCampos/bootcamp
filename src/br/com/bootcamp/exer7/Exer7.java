@@ -16,6 +16,10 @@ public class Exer7 {
         Banco sicredi = new Banco();
         sicredi.setInserir(conta1);
         sicredi.procurar(conta1);
+        Banco brasil = new Banco();
+        brasil.setInserir(conta2);
+        brasil.procurar(conta2);
+        sicredi.procurar(conta1);
 
 
     }

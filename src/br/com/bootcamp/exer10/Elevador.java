@@ -10,19 +10,27 @@ public class Elevador {
     private Integer capacidadeElevador;
     private Integer pessoasDentroElevador;
 
-    public Elevador(Integer capacidadeElevador, Integer totalAndares,Integer andarAtual,Integer pessoasDentroElevador) {
+    public Elevador(//Integer capacidadeElevador,
+                    Integer totalAndares,
+                    Integer andarAtual,
+                    Integer pessoasDentroElevador) {
         this.andarAtual = andarAtual;
         this.pessoasDentroElevador = pessoasDentroElevador;
         this.totalAndares = totalAndares;
-        this.capacidadeElevador = capacidadeElevador;
+        this.capacidadeElevador = 5;
     }
 
-    public boolean entra(Elevador elevador) {
-        if (elevador.pessoasDentroElevador <= elevador.capacidadeElevador){
-            elevador.pessoasDentroElevador = elevador.pessoasDentroElevador+1;
+    public  boolean entra(Elevador elevador) {
+        if (elevador.pessoasDentroElevador <= elevador.capacidadeElevador) {
+            elevador.pessoasDentroElevador = elevador.pessoasDentroElevador + 1;
             System.out.println("pessoa entrou no elevador");
-            System.out.println("total de pessoas é = "+elevador.pessoasDentroElevador);
+            System.out.println("total de pessoas é = " + elevador.pessoasDentroElevador);
             return true;
+        }
+
+        else if (elevador.pessoasDentroElevador > elevador.capacidadeElevador){
+            System.out.println("elevador esta cheio");
+            return false;
         }
         else {
             System.out.println("nao há ninguem dentro do elevador");
